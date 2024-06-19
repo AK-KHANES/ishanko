@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ishan's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <div class="backgroundop">
+    <nav id="desktop-nav">
+      <div class="logo">
+        <h1 class="rgb">Ishan's Web Space</h1>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Subject Completed </a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Ishan Koirala</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/aaaa.JPG" alt="Ishan Koirala's profile picture" class="imageop" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Ishan Koirala</h1>
+        <p class="section__text__p2">ACCA Student</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+            onclick="location.href='https://linkedin.com/in/ishan-koirala/'" />
+          <img src="./assets/viber.png" alt="My Github profile" class="icon"
+            onclick="location.href='viber://chat?number=9812323452'" />
+          <img src="./assets/whatsapp.png" alt="My Github profile" class="icon"
+            onclick="location.href='https://wa.me/9812323452'" />
+        </div>
+      </div>
+    </section> 
+    <hr> 
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title sick1">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/aaaa.JPG" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+              <h3> For Experience</h3>
+              <p>Searching For <br />Internship</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>SEE<br />+2 (Management)</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am passionate about learning and exploring various aspects of accounting. As an ACCA student, I am
+              dedicated to building a professional career in this field. I thrive in environments that promote
+              continuous
+              learning and innovation. My past experiences have provided valuable lessons, and with the guidance of
+              mentors, I am eager to apply my growing knowledge and skills in practical settings. I aim to contribute
+              effectively to team projects while continuously seeking opportunities for personal and professional
+              development.
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+  </div>
+
+  <div class="backgroundop2">
+
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title sick">Completed Subject</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Knowledge Level</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3 class="op"> BT (Business & technology)</h3>
+                  <p class="op">Completed With (70%)</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3 class="op">FA (Financial Accounting)</h3>
+                  <p class="op">Completed With (88%)</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3 class="op">MA (Management Accounting)</h3>
+                  <p class="op">Completed With (70%)</p>
+                </div>
+              </article>
+
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Skills Level</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Corporated & Business Law</h3>
+                  <p>Completed(81%)</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Financaial Reporting</h3>
+                  <p>Studying</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Audit & Assurance</h3>
+                  <p>Studying Soon </p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Performance Measurement</h3>
+                  <p>Studying Soon</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Financial Management</h3>
+                  <p>Studying Soon</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Taxation Global</h3>
+                  <p>Studying Soon</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <br>
+    <br>
+   <!--  <br>
+    <br> -->
+  </div>
+
+  <div class="backgroundop3">
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:terobau9120225@gmail.com">Ishankoirala13579@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/ishan-koirala/">LinkedIn</a></p>
+        </div>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/phone.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="tel:+9779812323452">+977 9812323452</a></p>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Completed Subject</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; Ishan Koirala. All Rights Reserved.</p>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
